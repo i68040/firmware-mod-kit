@@ -1,6 +1,13 @@
 # firmware-mod-kit
 Exported from code.google.com/p/firmware-mod-kit before google code shuts down
 
+One thing to note: I had to go into the **src** directory and execute these 2 commands before anything else in this document worked for me:
+
+```js
+[user@host src]$ ./configure
+[user@host src]$ make
+```
+
 # Introduction
 The Firmware Mod Kit allows for easy deconstruction and reconstruction of firmware images for various embedded devices. While it primarily targets Linux based routers, it should be compatible with most firmware that makes use of common firmware formats and file systems such as TRX/uImage and SquashFS/CramFS.
 
